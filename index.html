@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App || Azhar Ali</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome cdn -->
+    <script src="https://kit.fontawesome.com/5ac6bf8fc0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Start Quiz -->
+    <div class="start-quiz">
+        <button>Start Quiz</button>
+    </div>
+
+    <!-- Rules Box -->
+    <div class="rules-box ">
+        <h3>Some Rules of this Quiz</h3>
+        <ul>
+            <li>1. You will have only <span>15 Seconds</span> per each question.</li>
+            <li>2. Once you select your answer, it can't be undone.</li>
+            <li>3. You can't select any option once time goes off.</li>
+            <li>4. You can't exit from the Quiz while you're playing.</li>
+            <li>5. You'll get points on the basis of your correct answers.</li>
+        </ul>
+        <div class="buttons">
+            <button class="exit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz-box">
+        <div class="header">
+            <h3>Quiz Application</h3>
+            <div class="timer">
+                <p>Time Left <span class="time">15</span></p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <h2 class="question">What does HTML stand for?</h2>
+        <div class="options">
+            <ul>
+                <li class="option">Hyper Text Preprocessor</li>
+                <li class="option">Hyper Text Markup Language</li>
+                <li class="option">Hyper Text Multiple Language</li>
+                <li class="option">Hyper Text Multi Langauge</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="question-counter">
+                <p><Span class="currQue">1</Span> of <span class="totalQue">5</span> Question</p>
+            </div>
+            <div class="next-que-btn">
+                <button>Next Que</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result-box -->
+    <div class="result-box">
+        <i class="fa-solid fa-crown"></i>
+        <div class="detail-text">
+            <p>You've completed the Quiz! and nice , You got <span class="yourScore">2</span> out of <span class="totalScore">5</span>.</p>
+        </div>
+        <div class="buttons">
+            <button class="restart">Reply Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
